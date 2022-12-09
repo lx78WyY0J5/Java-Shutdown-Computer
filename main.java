@@ -7,12 +7,12 @@ public class main {
         Runtime runtime = Runtime.getRuntime();
 
         String argsWin = "";
+
         if (restart) {
             argsWin += " -r";
         } else {
             argsWin += " -s";
         }
-
         if (!instant) {
             argsWin += " -t " + time;
         }
