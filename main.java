@@ -18,9 +18,7 @@ public class main {
         }
 
         try {
-            if (instant) {
                 runtime.exec("shutdown" + argsWin);
-            }
         } catch (Exception e) {
             System.out.println(e.getStackTrace());
         }
